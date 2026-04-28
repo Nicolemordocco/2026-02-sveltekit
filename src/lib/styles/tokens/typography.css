@@ -1,6 +1,35 @@
 :root {
+    /* Font Families */
     --font-primary: "Satoshi", sans-serif;
     --font-secondary: "Inter", sans-serif;
+    --font-mono: "Courier New", monospace;
+
+    /* Font Sizes */
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-24: 24px;
+    --font-size-32: 32px;
+    --font-size-40: 40px;
+    --font-size-48: 48px;
+    --font-size-56: 56px;
+
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Heights */
+    --line-height-tight: 1;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.02em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-loose: 0.02em;
 
     font-feature-settings: "liga" 1, "calt" 1; /*fix for Chrome*/
 }

@@ -1,0 +1,121 @@
+/* ========== DARK MODE (DEFAULT) ========== */
+:root {
+    /* Background Colors */
+    --color-background-primary: #030404;
+    --color-background-secondary: #1a1a1a;
+    
+    /* Content Colors */
+    --color-content-primary: #fafafa;
+    --color-content-secondary: #babdc2;
+    --color-content-tertiary: #8a8d82;
+    
+    /* Link Colors */
+    --color-link-default: #fafafa;
+    --color-link-hover: #e8e8e8;
+    
+    /* Filter Colors */
+    --color-filter-background-default: transparent;
+    --color-filter-background-selected: #418599;
+    --color-filter-content-default: #fafafa;
+    --color-filter-content-selected: #fafafa;
+    
+    /* Accent Colors */
+    --color-accent-primary: #418599;
+    --color-accent-secondary: #fd6755;
+    
+    /* Overlay Colors */
+    --color-overlay-soft-light: rgba(255, 255, 255, 0.1);
+    --color-overlay-dark: rgba(0, 0, 0, 0.5);
+}
+
+/* ========== LIGHT MODE ========== */
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Background Colors */
+        --color-background-primary: #ffffff;
+        --color-background-secondary: #f5f5f5;
+        
+        /* Content Colors */
+        --color-content-primary: #030404;
+        --color-content-secondary: #4a4a4a;
+        --color-content-tertiary: #7a7a7a;
+        
+        /* Link Colors */
+        --color-link-default: #030404;
+        --color-link-hover: #333333;
+        
+        /* Filter Colors */
+        --color-filter-background-default: #f0f0f0;
+        --color-filter-background-selected: #418599;
+        --color-filter-content-default: #030404;
+        --color-filter-content-selected: #ffffff;
+        
+        /* Accent Colors */
+        --color-accent-primary: #418599;
+        --color-accent-secondary: #fd6755;
+        
+        /* Overlay Colors */
+        --color-overlay-soft-light: rgba(0, 0, 0, 0.05);
+        --color-overlay-dark: rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* ========== LIGHT MODE CLASS OVERRIDE ========== */
+:root.light-mode {
+    /* Background Colors */
+    --color-background-primary: #ffffff;
+    --color-background-secondary: #f5f5f5;
+    
+    /* Content Colors */
+    --color-content-primary: #030404;
+    --color-content-secondary: #4a4a4a;
+    --color-content-tertiary: #7a7a7a;
+    
+    /* Link Colors */
+    --color-link-default: #030404;
+    --color-link-hover: #333333;
+    
+    /* Filter Colors */
+    --color-filter-background-default: #f0f0f0;
+    --color-filter-background-selected: #418599;
+    --color-filter-content-default: #030404;
+    --color-filter-content-selected: #ffffff;
+    
+    /* Accent Colors */
+    --color-accent-primary: #418599;
+    --color-accent-secondary: #fd6755;
+    
+    /* Overlay Colors */
+    --color-overlay-soft-light: rgba(0, 0, 0, 0.05);
+    --color-overlay-dark: rgba(0, 0, 0, 0.2);
+}
+
+/* ========== DARK MODE CLASS OVERRIDE ========== */
+:root.dark-mode {
+    /* Background Colors */
+    --color-background-primary: #030404;
+    --color-background-secondary: #1a1a1a;
+    
+    /* Content Colors */
+    --color-content-primary: #fafafa;
+    --color-content-secondary: #babdc2;
+    --color-content-tertiary: #8a8d82;
+    
+    /* Link Colors */
+    --color-link-default: #fafafa;
+    --color-link-hover: #e8e8e8;
+    
+    /* Filter Colors */
+    --color-filter-background-default: transparent;
+    --color-filter-background-selected: #418599;
+    --color-filter-content-default: #fafafa;
+    --color-filter-content-selected: #fafafa;
+    
+    /* Accent Colors */
+    --color-accent-primary: #418599;
+    --color-accent-secondary: #fd6755;
+    
+    /* Overlay Colors */
+    --color-overlay-soft-light: rgba(255, 255, 255, 0.1);
+    --color-overlay-dark: rgba(0, 0, 0, 0.5);
+}
