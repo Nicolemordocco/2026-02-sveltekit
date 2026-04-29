@@ -38,3 +38,68 @@
 		</div>
 	</div>
 </div>
+
+<style>
+	.card {
+		position: relative;
+		width: 100%;
+		aspect-ratio: 1;
+		overflow: hidden;
+		border-radius: var(--radius-md);
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+
+	.image-container {
+		width: 100%;
+		height: 100%;
+	}
+
+	.image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+	}
+
+	.content {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: var(--spacing-4);
+		color: white;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.text-content {
+		flex: 1;
+	}
+
+	.title {
+		font-family: var(--font-primary);
+		font-size: var(--font-size-18);
+		font-weight: var(--font-weight-bold);
+		margin: 0;
+	}
+
+	.year {
+		font-family: var(--font-secondary);
+		font-size: var(--font-size-14);
+		opacity: 0.8;
+		margin: 0;
+	}
+
+	.arrow {
+		color: white;
+	}
+</style>
