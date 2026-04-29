@@ -45,5 +45,7 @@
 
 	.filter-btn:hover:not(.selected) {
 		opacity: 0.8;
+		transform: scale(1.05);
+		background-color: var(--color-overlay-soft-light);
 	}
 </style>

@@ -47,6 +47,13 @@
 		overflow: hidden;
 		border-radius: var(--radius-md);
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		cursor: pointer;
+	}
+
+	.card:hover {
+		transform: scale(1.02);
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
 	.image-container {
@@ -58,6 +65,13 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		transition: transform 0.3s ease, filter 0.3s ease;
+		will-change: transform, filter;
+	}
+
+	.card:hover .image {
+		transform: scale(1.1);
+		filter: brightness(1.05);
 	}
 
 	.overlay {
@@ -67,6 +81,11 @@
 		width: 100%;
 		height: 100%;
 		background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+		transition: background 0.3s ease;
+	}
+
+	.card:hover .overlay {
+		background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
 	}
 
 	.content {
@@ -101,5 +120,10 @@
 
 	.arrow {
 		color: white;
+		transition: transform 0.3s ease;
+	}
+
+	.card:hover .arrow {
+		transform: rotate(45deg);
 	}
 </style>

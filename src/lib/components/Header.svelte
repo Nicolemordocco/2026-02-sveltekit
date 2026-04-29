@@ -24,6 +24,12 @@
 		align-items: center;
 		justify-content: center;
 		padding: var(--spacing-1) var(--spacing-2);
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+	}
+
+	.logo-link:hover {
+		background-color: var(--color-overlay-soft-light);
 	}
 
 	.logo {
@@ -54,6 +60,6 @@
 	}
 
 	.nav-link:hover {
-		color: var(--color-link-hover);
+		color: var(--color-accent-primary);
 	}
 </style>

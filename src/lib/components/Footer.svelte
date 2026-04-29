@@ -1,31 +1,54 @@
 <footer class="footer">
-	<div class="logo-container">
+	<div class="footer-inner">
 		<img 
-			src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 201 78'%3E%3Ctext x='10' y='50' font-size='40' fill='white' font-family='sans-serif'%3EPolitecnico%3C/text%3E%3C/svg%3E"
-			alt="Politecnico Milano" 
-			class="politecnico-logo"
+			src="https://www.figma.com/api/mcp/asset/5bf540a6-d744-4c02-b381-1c5d6c10b8a5"
+			alt="Politecnico Milano logo" 
+			class="footer-logo"
 		/>
 	</div>
 </footer>
 
 <style>
 	.footer {
+		width: 100%;
+		padding: var(--spacing-3) var(--spacing-10);
 		display: flex;
-		flex-direction: column;
-		align-items: center;
 		justify-content: center;
-		padding: var(--spacing-4) var(--spacing-10);
-		width: 100%;
+		align-items: center;
 	}
 
-	.logo-container {
-		height: 78px;
-		width: 201px;
+	.footer-inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		max-width: 1200px;
 	}
 
-	.politecnico-logo {
+	.footer-logo {
+		height: auto;
+		max-width: 400px;
 		width: 100%;
-		height: 100%;
-		object-fit: cover;
+		transition: opacity 0.3s ease, filter 0.3s ease;
+	}
+
+	.footer-logo:hover {
+		opacity: 0.8;
+	}
+
+	@media (prefers-color-scheme: light) {
+		.footer-logo {
+			filter: invert(1);
+		}
+	}
+
+	@media (max-width: 768px) {
+		.footer {
+			padding: var(--spacing-4) var(--spacing-5);
+		}
+
+		.footer-logo {
+			max-width: 90%;
+		}
 	}
 </style>
