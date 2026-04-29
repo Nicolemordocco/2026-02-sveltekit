@@ -48,4 +48,17 @@
 		transform: scale(1.05);
 		background-color: var(--color-overlay-soft-light);
 	}
+
+	@media (max-width: 768px) {
+		.year-filter {
+			gap: var(--spacing-4);
+			padding: 0 var(--spacing-5);
+			margin-bottom: var(--spacing-5);
+		}
+
+		.filter-btn {
+			padding: var(--spacing-2) var(--spacing-4);
+			font-size: var(--font-size-20);
+		}
+	}
 </style>
