@@ -43,7 +43,7 @@
 	.card {
 		position: relative;
 		width: 100%;
-		aspect-ratio: 1;
+		aspect-ratio: 664 / 400;
 		overflow: hidden;
 		border-radius: var(--radius-md);
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
