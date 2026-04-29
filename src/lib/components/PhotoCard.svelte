@@ -109,6 +109,7 @@
 		font-size: var(--font-size-18);
 		font-weight: var(--font-weight-bold);
 		margin: 0;
+		transition: color 0.3s ease;
 	}
 
 	.year {
@@ -116,6 +117,12 @@
 		font-size: var(--font-size-14);
 		opacity: 0.8;
 		margin: 0;
+		transition: color 0.3s ease;
+	}
+
+	.card:hover .title,
+	.card:hover .year {
+		color: var(--color-accent-primary);
 	}
 
 	.arrow {

@@ -25,11 +25,6 @@
 		justify-content: center;
 		padding: var(--spacing-1) var(--spacing-2);
 		cursor: pointer;
-		transition: background-color 0.2s ease;
-	}
-
-	.logo-link:hover {
-		background-color: var(--color-overlay-soft-light);
 	}
 
 	.logo {
@@ -40,6 +35,11 @@
 		color: var(--color-link-default);
 		margin: 0;
 		white-space: nowrap;
+		transition: color 0.2s ease;
+	}
+
+	.logo-link:hover .logo {
+		color: var(--color-accent-primary);
 	}
 
 	.nav-links {
