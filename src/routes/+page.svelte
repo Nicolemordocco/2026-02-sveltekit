@@ -7,7 +7,7 @@
 	import { photos } from "$lib/data/photos.js";
 </script>
 
-<div class="page">
+<div class="page" style="padding-top: var(--header-height, 88px);">
 	<Header />
 	<Hero />
 	<div class="content">
