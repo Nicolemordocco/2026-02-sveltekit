@@ -33,7 +33,23 @@
 
 	@media (max-width: 1024px) {
 		.grid {
+			padding: 0 var(--spacing-8);
+			gap: var(--spacing-5);
+		}
+	}
+
+	@media (max-width: 744px) {
+		.grid {
 			grid-template-columns: 1fr;
+			padding: 0 var(--spacing-5);
+			gap: var(--spacing-4);
+		}
+	}
+
+	@media (max-width: 402px) {
+		.grid {
+			padding: 0 var(--spacing-4);
+			gap: var(--spacing-3);
 		}
 	}
 </style>

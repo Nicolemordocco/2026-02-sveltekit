@@ -42,13 +42,33 @@
 		}
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 1024px) {
+		.footer {
+			padding: var(--spacing-3) var(--spacing-7);
+		}
+
+		.footer-logo {
+			max-width: 320px;
+		}
+	}
+
+	@media (max-width: 744px) {
 		.footer {
 			padding: var(--spacing-4) var(--spacing-5);
 		}
 
 		.footer-logo {
-			max-width: 90%;
+			max-width: 280px;
+		}
+	}
+
+	@media (max-width: 402px) {
+		.footer {
+			padding: var(--spacing-4) var(--spacing-4);
+		}
+
+		.footer-logo {
+			max-width: 220px;
 		}
 	}
 </style>

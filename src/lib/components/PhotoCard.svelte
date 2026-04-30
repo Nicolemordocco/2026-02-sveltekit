@@ -133,4 +133,41 @@
 	.card:hover .arrow {
 		transform: rotate(45deg);
 	}
+
+	@media (max-width: 744px) {
+		.card {
+			aspect-ratio: 5 / 3;
+		}
+
+		.content {
+			padding: var(--spacing-3);
+		}
+
+		.title {
+			font-size: var(--font-size-18);
+		}
+	}
+
+	@media (max-width: 402px) {
+		.card {
+			aspect-ratio: 4 / 3;
+		}
+
+		.content {
+			padding: var(--spacing-2);
+		}
+
+		.title {
+			font-size: var(--font-size-16);
+		}
+
+		.year {
+			font-size: var(--font-size-12);
+		}
+
+		.arrow svg {
+			width: 20px;
+			height: 20px;
+		}
+	}
 </style>

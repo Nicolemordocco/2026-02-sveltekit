@@ -21,4 +21,39 @@
 		margin: 0;
 		max-width: 893px;
 	}
+
+	@media (max-width: 1024px) {
+		.hero {
+			padding: var(--spacing-10) var(--spacing-7);
+		}
+
+		.description {
+			font-size: var(--font-size-40);
+			max-width: 720px;
+		}
+	}
+
+	@media (max-width: 744px) {
+		.hero {
+			padding: var(--spacing-8) var(--spacing-5);
+			height: auto;
+			align-items: flex-start;
+		}
+
+		.description {
+			font-size: var(--font-size-32);
+			max-width: none;
+		}
+	}
+
+	@media (max-width: 402px) {
+		.hero {
+			padding: var(--spacing-6) var(--spacing-4);
+		}
+
+		.description {
+			font-size: var(--font-size-24);
+			line-height: 1.3;
+		}
+	}
 </style>

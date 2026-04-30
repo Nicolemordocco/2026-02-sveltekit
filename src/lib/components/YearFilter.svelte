@@ -49,8 +49,21 @@
 		background-color: var(--color-overlay-soft-light);
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 1024px) {
 		.year-filter {
+			gap: var(--spacing-4);
+			padding: 0 var(--spacing-7);
+			margin-bottom: var(--spacing-6);
+		}
+
+		.filter-btn {
+			font-size: var(--font-size-22);
+		}
+	}
+
+	@media (max-width: 744px) {
+		.year-filter {
+			flex-wrap: wrap;
 			gap: var(--spacing-4);
 			padding: 0 var(--spacing-5);
 			margin-bottom: var(--spacing-5);
@@ -59,6 +72,21 @@
 		.filter-btn {
 			padding: var(--spacing-2) var(--spacing-4);
 			font-size: var(--font-size-20);
+		}
+	}
+
+	@media (max-width: 402px) {
+		.year-filter {
+			flex-wrap: wrap;
+			gap: var(--spacing-3);
+			padding: 0 var(--spacing-4);
+			justify-content: center;
+		}
+
+		.filter-btn {
+			padding: var(--spacing-2) var(--spacing-3);
+			font-size: var(--font-size-18);
+			min-width: 84px;
 		}
 	}
 </style>

@@ -32,5 +32,26 @@
 		flex: 1;
 		gap: var(--spacing-7);
 	}
+
+	@media (max-width: 1024px) {
+		.content {
+			padding: 0 var(--spacing-7);
+			gap: var(--spacing-6);
+		}
+	}
+
+	@media (max-width: 744px) {
+		.content {
+			padding: 0 var(--spacing-5);
+			gap: var(--spacing-5);
+		}
+	}
+
+	@media (max-width: 402px) {
+		.content {
+			padding: 0 var(--spacing-4);
+			gap: var(--spacing-4);
+		}
+	}
 </style>
 
